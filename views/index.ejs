@@ -1,22 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-</head>
-<body>
-  <%- include('partials/header'); %>
+<%- include('partials/header'); %>
+
 
   <section class="home d-flex flex-column align-items-center justify-content-center">
     <div class="text-center">
       <h1 class="h1 text-gold fw-medium fst-italic fw-bold">My name is Joshua Isaac and I am a</h1>
       <h2 class="typing display-3 text-peach fw-bold"> I am a Software Engineering Technician Student</h2>
-      
+      <a href="/Content/Joshua Isaac Resume.pdf" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">RESUME</a>
     </div>
   </section>
 
-  <%- include('partials/footer'); %>
-</body>
-</html>
+  <% if (title == "About"){ %>
+    <%- include about.ejs %>
+  <% } %>
+
+  <% if (title == "Projects"){ %>
+    <%- include projects.ejs %>
+  <% } %>
+
+  <% if (title == "Services"){ %>
+    <%- include services.ejs %>
+  <% } %>
+
+  <% if (title == "Contact Me"){ %>
+    <%- include contact.ejs %>
+  <% } %>
+
+
+<%- include('partials/footer'); %>

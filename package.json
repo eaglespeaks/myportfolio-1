@@ -1,5 +1,5 @@
 {
-  "name": "comp229-week3",
+  "name": "myportfolio-1",
   "version": "0.1.1",
   "private": true,
   "scripts": {
@@ -17,17 +17,17 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "Week 3 Lab",
-  "main": "index.js",
+  "description": "My Portfolio",
+  "main": "app.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eaglespeaks/COMP229-Week3.git"
+    "url": "git+https://github.com/eaglespeaks/myportfolio-1.git"
   },
   "author": "Joshua Isaac",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eaglespeaks/COMP229-Week3/issues"
+    "url": "https://github.com/eaglespeaks/myportfolio-1/issues"
   },
-  "homepage": "https://github.com/eaglespeaks/COMP229-Week3#readme"
+  "homepage": "https://github.com/eaglespeaks/myportfolio-1#readme"
 }
